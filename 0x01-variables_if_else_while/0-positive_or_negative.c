@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/** 
-*main - determines if number is postive, negative or zero
-*
-*Return: Always 0 (Success)
-*/
+/**
+ * main - Determines if a number is positive, negative or zero.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -16,7 +16,7 @@ int main(void)
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
-	}	
+	}
 	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
