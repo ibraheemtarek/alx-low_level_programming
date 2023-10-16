@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - take apointer into a parameter and update its value
- * input integer
- * returns : no return 
+ * reset_to_98 - takes a pointer to a parameter and updates its value.
+ * @n: input integer.
+ * Return: no return.
  */
 void reset_to_98(int *n)
 {
